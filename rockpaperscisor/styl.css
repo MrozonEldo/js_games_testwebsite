@@ -1,0 +1,75 @@
+body{
+    background-color: #5768b8;
+}
+#main{
+    width:100%;
+    text-align: center;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size:150%;
+}
+header{
+    height: 10%;
+    border-bottom:solid black 3px;
+
+}
+#player{
+    float:left;
+    height:300px;
+    width:50%;
+    padding-top:50px;
+}
+#si{
+    float:left;
+    height:300px;
+    width:50%;
+    padding-top:50px;
+}
+.guzik{
+    clear:both;
+    cursor:pointer;
+    display: inline-block;
+    height:27px;
+    width:125px;
+    border:solid #011474 3px;
+    background-color: #176af0;
+    filter:brightness(70%);
+    transition: all .2s ease-in-out;
+}
+.guzik:hover{
+    color:aquamarine;
+    filter:brightness(100%);
+}
+#playerscore{
+    float:left;
+    width:50%;
+}
+#siscore{
+    float:left;
+    width:50%;
+}
+.simage{
+    transform: rotateY(180deg);
+}
+@keyframes animacja1{
+    25% {transform:rotate(-20deg);}
+    50% {transform:rotate(0deg);}
+    75% {transform:rotate(-20deg);}
+    100% {transform:rotate(0deg);}
+}
+@keyframes animacja2{
+    25% {transform:rotate(20deg);}
+    50% {transform:rotate(0deg);}
+    75% {transform:rotate(20deg);}
+    100% {transform:rotate(0deg);}
+}
+.animacja1{
+    animation-name:animacja1;
+    animation-duration:1s;
+}
+.animacja2{
+    animation-name:animacja2;
+    animation-duration:1s;
+}
+.score{
+    font-size:70px;
+}

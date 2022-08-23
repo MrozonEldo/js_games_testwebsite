@@ -1,0 +1,86 @@
+body{
+    background-color: #2f2f2f;
+    color:darkgoldenrod;
+    font-family:'Comic Sans MS'
+}
+#main{
+    text-align:center;
+}
+#game{
+    padding-left:23%;
+    padding-right:auto;
+}
+#wynik{
+    clear:both;
+    height: 100%;
+    margin-top:5px;
+    font-size:300%;
+}
+.blok{
+    cursor:pointer;
+    margin:0px;
+    width:150px;
+    height:150px;
+    
+    font-size:500%;
+}
+#b00{
+    border-right: 2.5px solid black;
+    border-bottom: 2.5px solid black;
+    margin-left:2em;
+    float:left;
+}
+#b10{
+    border-top:2.5px solid black;
+    border-right:2.5px solid black;
+    border-bottom:2.5px solid black;
+    margin-left:2em;
+    float:left;
+}
+#b20{
+    border-top:2.5px solid black;
+    border-right: 2.5px solid black;
+    margin-left:2em;
+    float:left;
+}
+#b01{
+    border-left:2.5px solid black;
+    border-bottom:2.5px solid black;
+    border-right: 2.5px solid black;
+    float:left;
+}
+#b02{
+    border-left:2.5px solid black;
+    border-bottom:2.5px solid black;
+    float:left;
+}
+
+#b11{
+    border:2.5px solid black;
+    float:left;
+}
+#b12{
+    border-top:2.5px solid black;
+    border-bottom: 2.5px solid black;
+    border-left: 2.5px solid black;
+    float:left;
+}
+
+#b21{
+    border-top:2.5px solid black;
+    border-right:2.5px solid black;
+    border-left: 2.5px solid black;
+    float:left;
+}
+#b22{
+    border-top:2.5px solid black;
+    border-left: 2.5px solid black;
+    float:left;
+}
+.blok.daectiv{
+    cursor:default;
+}
+.reset{
+    cursor: pointer;
+    text-align: center;
+}
