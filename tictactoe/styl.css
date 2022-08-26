@@ -23,47 +23,6 @@ body{
     font-size:500%;
     border:2.5px solid black;
 }
-#b00{
-    border-right: 2.5px solid black;
-    border-bottom: 2.5px solid black;
-}
-#b10{
-    border-top:2.5px solid black;
-    border-right:2.5px solid black;
-    border-bottom:2.5px solid black;
-}
-#b20{
-    border-top:2.5px solid black;
-    border-right: 2.5px solid black;
-}
-#b01{
-    border-left:2.5px solid black;
-    border-bottom:2.5px solid black;
-    border-right: 2.5px solid black;
-}
-#b02{
-    border-left:2.5px solid black;
-    border-bottom:2.5px solid black;
-}
-
-#b11{
-    border:2.5px solid black;
-}
-#b12{
-    border-top:2.5px solid black;
-    border-bottom: 2.5px solid black;
-    border-left: 2.5px solid black;
-}
-
-#b21{
-    border-top:2.5px solid black;
-    border-right:2.5px solid black;
-    border-left: 2.5px solid black;
-}
-#b22{
-    border-top:2.5px solid black;
-    border-left: 2.5px solid black;
-}
 .blok.daectiv{
     cursor:default;
 }
