@@ -7,8 +7,10 @@ body{
     text-align:center;
 }
 #game{
-    padding-left:23%;
-    padding-right:auto;
+    display: grid;
+    grid-template-columns: repeat(3,150px);
+    grid-template-rows: repeat(3,150px);
+    justify-content: center;
 }
 #wynik{
     clear:both;
@@ -18,64 +20,48 @@ body{
 }
 .blok{
     cursor:pointer;
-    margin:0px;
-    width:150px;
-    height:150px;
-    
     font-size:500%;
 }
 #b00{
     border-right: 2.5px solid black;
     border-bottom: 2.5px solid black;
-    margin-left:2em;
-    float:left;
 }
 #b10{
     border-top:2.5px solid black;
     border-right:2.5px solid black;
     border-bottom:2.5px solid black;
-    margin-left:2em;
-    float:left;
 }
 #b20{
     border-top:2.5px solid black;
     border-right: 2.5px solid black;
-    margin-left:2em;
-    float:left;
 }
 #b01{
     border-left:2.5px solid black;
     border-bottom:2.5px solid black;
     border-right: 2.5px solid black;
-    float:left;
 }
 #b02{
     border-left:2.5px solid black;
     border-bottom:2.5px solid black;
-    float:left;
 }
 
 #b11{
     border:2.5px solid black;
-    float:left;
 }
 #b12{
     border-top:2.5px solid black;
     border-bottom: 2.5px solid black;
     border-left: 2.5px solid black;
-    float:left;
 }
 
 #b21{
     border-top:2.5px solid black;
     border-right:2.5px solid black;
     border-left: 2.5px solid black;
-    float:left;
 }
 #b22{
     border-top:2.5px solid black;
     border-left: 2.5px solid black;
-    float:left;
 }
 .blok.daectiv{
     cursor:default;
