@@ -21,6 +21,7 @@ body{
 .blok{
     cursor:pointer;
     font-size:500%;
+    border:2.5px solid black;
 }
 #b00{
     border-right: 2.5px solid black;
