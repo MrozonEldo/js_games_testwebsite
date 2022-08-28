@@ -16,7 +16,6 @@ body{
     grid-column:2/4;
 }
 header{
-    height: 10%;
     border-bottom:solid black 3px;
 }
 #player{

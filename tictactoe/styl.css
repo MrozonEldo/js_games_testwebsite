@@ -30,3 +30,6 @@ body{
     cursor: pointer;
     text-align: center;
 }
+.reset:hover{
+    color:green;
+}
